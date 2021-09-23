@@ -1,0 +1,75 @@
+*{
+    margin: 0   ;
+    padding: 0;
+    font-family: cursive;
+}
+.navbar{
+    background-color: lightgray;
+    height: 60px;
+    width: 750px;
+    margin: 0px 350px 20px 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn-1{
+    background-color: rgb(43, 120, 228);
+    width: 60px;
+    color: white;
+    box-shadow: 2px 5px black;
+}
+.content{
+    display: flex;
+    margin-left: 350px;
+}
+.definition{
+    display: flex;
+    display: inline-block;
+    width: 450px;
+    margin-right: 20px;
+}
+.practitioner, .programmer{
+    display: flex;
+    align-items: center;
+    border: solid black;
+    padding: 20px;
+}
+.practitioner{
+    margin-bottom: 20px;
+}
+.word{
+    width: 150px;
+    margin: 0px;
+}
+.p-1{
+    margin-left: 20px;
+    font-style: italic;
+}
+.p-2{
+    margin-bottom: 10px;
+}
+.p-2 span{
+    font-style: italic;
+}
+.define{
+    width: 300px;
+}
+.btn-2{
+    width: 80px;
+    padding: 5px;
+    background-color: rgb(255, 217, 102);
+    box-shadow: 2px 5px black;
+}
+.adddefine{
+    border: solid black;
+    width: 220px;
+    height: 120px;
+    padding: 15px;
+}
+.btn-3{
+    margin-top: 10px;
+    width: 220px;
+    padding: 5px;
+    background-color: rgb(147, 196, 125);
+    box-shadow: 2px 5px black;
+}
